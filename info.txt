@@ -1,0 +1,9 @@
+Se você estiver no Ubunto
+
+sudo apt-get install libmysqlclient-dev python3-dev
+
+Se estiver no Mac
+
+brew install mysql-connector-c
+
+Se estiver no Windows, e tem o servidor MySQL instalado, as bibliotecas já devem estar instaladas.
