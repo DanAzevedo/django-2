@@ -14,10 +14,12 @@ from pathlib import Path
 import os
 import dj_database_url
 
-# Usando PostgreeSQL com Heroku
+'''
+Usando PostgreeSQL com Heroku
 DATABASES = {
     'default': dj_database_url.config()
 }
+'''
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -81,8 +83,8 @@ WSGI_APPLICATION = "django2.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-'''
-MySQL
+
+# MySQL
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
@@ -93,7 +95,7 @@ DATABASES = {
         "PORT": '3306',
     }
 }
-'''
+
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
