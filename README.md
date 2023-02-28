@@ -35,8 +35,12 @@
 
 > <h3>About</h3>
 - Com o intuito de melhorar meus conhecimentos e habilidade com o framework Django, este projeto foi desenvolvido durante um curso realizado por mim.
+- Acesse url + /produtos para cadastrar novo produto
+- url + /admin para área administrativa -> user = admin, pass = admin
 
 - In order to improve my knowledge and skills with the Django framework, this project was developed during a course I took.
+- Access url + /produtos to register a new product
+- url + /admin for admin area -> user = admin, pass = admin
 
 > <h3>Contribuidores/Contribuitors</h3>
 
